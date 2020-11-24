@@ -1,0 +1,126 @@
+WARNING: line 800 malformed, ignoring
+WARNING: line 801 malformed, ignoring
+WARNING: line 802 malformed, ignoring
+WARNING: line 803 malformed, ignoring
+WARNING: line 804 malformed, ignoring
+WARNING: line 1599 malformed, ignoring
+WARNING: line 1600 malformed, ignoring
+WARNING: line 1601 malformed, ignoring
+WARNING: line 1602 malformed, ignoring
+WARNING: line 1603 malformed, ignoring
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         32768 B, 64 B, 8-way associative
+LL cache:         16777216 B, 64 B, 16-way associative
+Command:          ./product_block --L1=16384,8,32 --L2=131072,8,64
+Data file:        out_global.out
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                  I1mr           ILmr           Dr                  D1mr            DLmr           Dw                 D1mw           DLmw           
+--------------------------------------------------------------------------------
+27,321,279 (100.0%) 4,486 (100.0%) 2,979 (100.0%) 11,258,900 (100.0%) 28,671 (100.0%) 4,698 (100.0%) 2,663,695 (100.0%) 4,096 (100.0%) 3,282 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                  I1mr           ILmr           Dr                  D1mr            DLmr           Dw                 D1mw           DLmw            file:function
+--------------------------------------------------------------------------------
+73,006,011 (267.2%)    27 ( 0.60%)    27 ( 0.91%) 31,537,800 (280.1%) 48,975 (170.8%) 3,747 (79.76%) 6,615,213 (248.3%)     9 ( 0.22%)     6 ( 0.18%)  /Users/andreigarcia/CLionProjects/lab2_arq/ejer4/./product_block.cpp:main
+ 1,907,826 ( 6.98%) 5,625 (125.4%) 4,944 (166.0%)    350,946 ( 3.12%)  7,885 (27.50%) 2,445 (52.04%)   620,820 (23.31%) 9,051 (221.0%) 8,001 (243.8%)  ???:???
+   575,325 ( 2.11%)    57 ( 1.27%)    12 ( 0.40%)    119,454 ( 1.06%)  2,139 ( 7.46%)   471 (10.03%)    11,109 ( 0.42%)     0              0           ???:strcmp
+   497,961 ( 1.82%)    21 ( 0.47%)    18 ( 0.60%)    188,418 ( 1.67%)    174 ( 0.61%)     0             41,313 ( 1.55%)    12 ( 0.29%)     6 ( 0.18%)  ???:dyld::loadPhase5check(char const*, char const*, dyld::LoadContext const&)
+   396,114 ( 1.45%)    18 ( 0.40%)     9 ( 0.30%)     80,034 ( 0.71%)  2,472 ( 8.62%)     0             10,047 ( 0.38%)    39 ( 0.95%)     9 ( 0.27%)  ???:ImageLoaderMachO::libPath(unsigned int) const
+   339,453 ( 1.24%)   309 ( 6.89%)    39 ( 1.31%)     48,606 ( 0.43%)    393 ( 1.37%)    96 ( 2.04%)    38,097 ( 1.43%)    69 ( 1.68%)    57 ( 1.74%)  ???:dyld3::MachOLoaded::trieWalk(Diagnostics&, unsigned char const*, unsigned char const*, char const*)
+   321,030 ( 1.18%)   324 ( 7.22%)   138 ( 4.63%)     52,113 ( 0.46%)    537 ( 1.87%)   531 (11.30%)    11,421 ( 0.43%)     0              0           ???:ImageLoaderMachO::sniffLoadCommands(macho_header const*, char const*, bool, bool*, unsigned int*, unsigned int*, ImageLoader::LinkContext const&, linkedit_data_command const**, encryption_info_command const**)
+   315,480 ( 1.15%)     6 ( 0.13%)     3 ( 0.10%)     46,992 ( 0.42%)     24 ( 0.08%)     0              1,224 ( 0.05%)     0              0           ???:ImageLoader::hash(char const*)
+   309,519 ( 1.13%)    12 ( 0.27%)    12 ( 0.40%)     53,754 ( 0.48%)    678 ( 2.36%)     0              4,356 ( 0.16%)   108 ( 2.64%)     0           ???:dyld::addMappedRange(ImageLoader*, unsigned long, unsigned long)
+   230,103 ( 0.84%)    51 ( 1.14%)    18 ( 0.60%)     30,639 ( 0.27%)    633 ( 2.21%)   357 ( 7.60%)    26,811 ( 1.01%)    24 ( 0.59%)    15 ( 0.46%)  ???:ImageLoader::trieWalk(unsigned char const*, unsigned char const*, char const*)
+   203,307 ( 0.74%)    60 ( 1.34%)    60 ( 2.01%)     70,659 ( 0.63%)    372 ( 1.30%)     0             29,529 ( 1.11%)   120 ( 2.93%)     9 ( 0.27%)  ???:ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&, char const*)
+   196,749 ( 0.72%)     0              0              84,321 ( 0.75%)      6 ( 0.02%)     0             28,107 ( 1.06%)     0              0           ???:ImageLoader::matchInstallPath() const
+   194,403 ( 0.71%)    18 ( 0.40%)    18 ( 0.60%)     48,918 ( 0.43%)    495 ( 1.73%)   246 ( 5.24%)     7,404 ( 0.28%)     0              0           ???:strncmp
+   191,646 ( 0.70%)     9 ( 0.20%)     9 ( 0.30%)     44,226 ( 0.39%)      0              0             29,484 ( 1.11%)     0              0           ???:___ZNK5dyld311MachOLoaded21fixupAllChainedFixupsER11DiagnosticsPK28dyld_chained_starts_in_imagemNS_5ArrayIPKvEEU13block_pointerFvPvSA_E_block_invoke
+   177,612 ( 0.65%)    21 ( 0.47%)    21 ( 0.70%)     57,774 ( 0.51%)     18 ( 0.06%)     0             23,970 ( 0.90%)     9 ( 0.22%)     0           ???:ImageLoader::recursiveUpdateDepth(unsigned int, dyld3::Array<ImageLoader*>&)
+   163,791 ( 0.60%)   363 ( 8.09%)    63 ( 2.11%)     32,850 ( 0.29%)  1,725 ( 6.02%) 1,686 (35.89%)    16,983 ( 0.64%)     0              0           ???:ImageLoaderMachO::parseLoadCmds(ImageLoader::LinkContext const&)
+   114,270 ( 0.42%)     0              0              45,708 ( 0.41%)    630 ( 2.20%)     0             11,427 ( 0.43%)     0              0           ???:ImageLoaderMachOCompressed::libImage(unsigned int) const
+   101,778 ( 0.37%)    63 ( 1.40%)    33 ( 1.11%)     35,340 ( 0.31%)    168 ( 0.59%)     0             20,388 ( 0.77%)    12 ( 0.29%)     0           ???:ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, char const*, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+   101,457 ( 0.37%)    18 ( 0.40%)     6 ( 0.20%)     23,601 ( 0.21%)    207 ( 0.72%)     0                138 ( 0.01%)     0              0           ???:dyld::findMappedRange(unsigned long)
+    98,604 ( 0.36%)    15 ( 0.33%)    12 ( 0.40%)     29,565 ( 0.26%)    948 ( 3.31%)   948 (20.18%)     5,031 ( 0.19%)     0              0           ???:dyld3::MachOLoaded::walkChain(Diagnostics&, dyld3::MachOLoaded::ChainedFixupPointerOnDisk*, unsigned short, bool, unsigned int, void ( block_pointer)(dyld3::MachOLoaded::ChainedFixupPointerOnDisk*, bool&)) const
+    86,049 ( 0.31%)    51 ( 1.14%)    18 ( 0.60%)     24,045 ( 0.21%)     72 ( 0.25%)     0              9,225 ( 0.35%)     9 ( 0.22%)     6 ( 0.18%)  ???:ImageLoaderMachO::findExportedSymbol(char const*, bool, char const*, ImageLoader const**) const
+    77,979 ( 0.29%)   315 ( 7.02%)    57 ( 1.91%)     31,872 ( 0.28%)    132 ( 0.46%)     3 ( 0.06%)    14,622 ( 0.55%)    78 ( 1.90%)    57 ( 1.74%)  ???:dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+    77,238 ( 0.28%)    12 ( 0.27%)    12 ( 0.40%)     19,476 ( 0.17%)  2,517 ( 8.78%) 2,517 (53.58%)     5,031 ( 0.19%)    87 ( 2.12%)    30 ( 0.91%)  ???:dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const
+    77,121 ( 0.28%)    27 ( 0.60%)    21 ( 0.70%)     18,942 ( 0.17%)      0              0             18,942 ( 0.71%)    66 ( 1.61%)    33 ( 1.01%)  ???:dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+    69,303 ( 0.25%)   162 ( 3.61%)    21 ( 0.70%)     20,544 ( 0.18%)      6 ( 0.02%)     0             12,177 ( 0.46%)    36 ( 0.88%)     3 ( 0.09%)  ???:dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+    68,331 ( 0.25%)    18 ( 0.40%)    18 ( 0.60%)     22,776 ( 0.20%)    168 ( 0.59%)     0             13,308 ( 0.50%)     0              0           ???:ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool, ImageLoader const*)
+    60,054 ( 0.22%)   279 ( 6.22%)    90 ( 3.02%)     12,747 ( 0.11%)      0              0              9,021 ( 0.34%)    51 ( 1.25%)     0           ???:_qsort
+    59,295 ( 0.22%)     6 ( 0.13%)     6 ( 0.20%)      9,576 ( 0.09%)    123 ( 0.43%)   117 ( 2.49%)     1,875 ( 0.07%)     0              0           ???:strlen
+    59,292 ( 0.22%)    15 ( 0.33%)     0              18,786 ( 0.17%)      0              0              4,344 ( 0.16%)     0              0           ???:ImageLoader::compare(ImageLoader const*) const
+    58,731 ( 0.21%)   159 ( 3.54%)    27 ( 0.91%)     15,723 ( 0.14%)     81 ( 0.28%)     3 ( 0.06%)    14,121 ( 0.53%)    69 ( 1.68%)     0           ???:dyld::load(char const*, dyld::LoadContext const&, unsigned int&)
+    58,440 ( 0.21%)    33 ( 0.74%)    12 ( 0.40%)     12,759 ( 0.11%)  2,058 ( 7.18%)     0              9,474 ( 0.36%)    90 ( 2.20%)    18 ( 0.55%)  ???:ImageLoaderMachO::doGetDependentLibraries(ImageLoader::DependentLibraryInfo*)
+    54,561 ( 0.20%)    81 ( 1.81%)    81 ( 2.72%)     18,315 ( 0.16%)     93 ( 0.32%)    63 ( 1.34%)    11,814 ( 0.44%)     6 ( 0.15%)     0           ???:ImageLoaderMachOCompressed::eachBind(ImageLoader::LinkContext const&, unsigned long ( block_pointer)(ImageLoader::LinkContext const&, ImageLoaderMachOCompressed*, unsigned long, unsigned char, char const*, unsigned char, long, long, ImageLoaderMachO::ExtraBindData*, char const*, ImageLoaderMachOCompressed::LastLookup*, bool))
+    53,892 ( 0.20%)     9 ( 0.20%)     6 ( 0.20%)      9,867 ( 0.09%)      9 ( 0.03%)     6 ( 0.13%)     5,424 ( 0.20%)     0              0           ???:dyld3::MachOFile::read_uleb128(Diagnostics&, unsigned char const*&, unsigned char const*)
+    52,260 ( 0.19%)     3 ( 0.07%)     0              20,904 ( 0.19%)    198 ( 0.69%)     0              5,226 ( 0.20%)     0              0           ???:ImageLoaderMachOCompressed::libReExported(unsigned int) const
+    51,369 ( 0.19%)    33 ( 0.74%)    33 ( 1.11%)     15,498 ( 0.14%)  2,544 ( 8.87%)     3 ( 0.06%)     7,239 ( 0.27%)     0              0           ???:ImageLoaderMachO::setupLazyPointerHandler(ImageLoader::LinkContext const&)
+    50,061 ( 0.18%)    30 ( 0.67%)    15 ( 0.50%)     20,295 ( 0.18%)      6 ( 0.02%)     0             14,883 ( 0.56%)    48 ( 1.17%)     3 ( 0.09%)  ???:dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+    50,061 ( 0.18%)    12 ( 0.27%)    12 ( 0.40%)     18,942 ( 0.17%)      0              0             14,883 ( 0.56%)    96 ( 2.34%)    39 ( 1.19%)  ???:dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+    49,149 ( 0.18%)    15 ( 0.33%)    15 ( 0.50%)     14,190 ( 0.13%)      3 ( 0.01%)     0              7,224 ( 0.27%)     0              0           ???:dyld::checkandAddImage(ImageLoader*, dyld::LoadContext const&)
+    48,747 ( 0.18%)    12 ( 0.27%)    12 ( 0.40%)     17,274 ( 0.15%)     39 ( 0.14%)     0              8,841 ( 0.33%)     0              0           ???:ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+    47,769 ( 0.17%)   195 ( 4.35%)    81 ( 2.72%)     13,461 ( 0.12%)    553 ( 1.93%)     6 ( 0.13%)     9,708 ( 0.36%)   142 ( 3.47%)     0           ???:dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
+    47,223 ( 0.17%)    15 ( 0.33%)    12 ( 0.40%)     15,216 ( 0.14%)      0              0              9,105 ( 0.34%)     3 ( 0.07%)     0           ???:ImageLoader::recursiveRebase(ImageLoader::LinkContext const&)
+    47,049 ( 0.17%)     9 ( 0.20%)     9 ( 0.30%)     16,113 ( 0.14%)      3 ( 0.01%)     0              8,928 ( 0.34%)     0              0           ???:ImageLoader::recursiveMakeDataReadOnly(ImageLoader::LinkContext const&)
+    45,384 ( 0.17%)    12 ( 0.27%)    12 ( 0.40%)      8,463 ( 0.08%)     21 ( 0.07%)    21 ( 0.45%)    11,547 ( 0.43%)     0              0           ???:arc4_stir
+    44,226 ( 0.16%)     6 ( 0.13%)     6 ( 0.20%)     19,656 ( 0.17%)      0              0              4,914 ( 0.18%)     0              0           ???:___ZNK5dyld311MachOLoaded27forEachFixupInSegmentChainsER11DiagnosticsPK30dyld_chained_starts_in_segmentbU13block_pointerFvPNS0_25ChainedFixupPointerOnDiskES5_RbE_block_invoke
+    41,688 ( 0.15%)     9 ( 0.20%)     9 ( 0.30%)     14,244 ( 0.13%)     51 ( 0.18%)    48 ( 1.02%)     3,306 ( 0.12%)     0              0           ???:___ZNK5dyld39MachOFile24forEachSupportedPlatformEU13block_pointerFvNS_8PlatformEjjE_block_invoke
+    40,227 ( 0.15%)     0              0              14,628 ( 0.13%)      0              0              3,657 ( 0.14%)     0              0           ???:ImageLoaderMachOCompressed::libIsUpward(unsigned int) const
+    39,720 ( 0.15%)     9 ( 0.20%)     9 ( 0.30%)      5,580 ( 0.05%)      0              0              1,980 ( 0.07%)   180 ( 4.39%)   174 ( 5.30%)  ???:ImageLoader::ImageLoader(char const*, unsigned int)
+    38,934 ( 0.14%)    15 ( 0.33%)     6 ( 0.20%)      7,401 ( 0.07%)     54 ( 0.19%)    39 ( 0.83%)     3,129 ( 0.12%)     0              0           ???:ImageLoader::read_uleb128(unsigned char const*&, unsigned char const*)
+    36,744 ( 0.13%)     3 ( 0.07%)     3 ( 0.10%)     15,267 ( 0.14%)  1,611 ( 5.62%)     0              3,105 ( 0.12%)     0              0           ???:ImageLoaderMachO::getInstallPath() const
+    35,808 ( 0.13%)    66 ( 1.47%)    33 ( 1.11%)     10,110 ( 0.09%)    129 ( 0.45%)     6 ( 0.13%)    10,275 ( 0.39%)    12 ( 0.29%)     0           ???:dyld::notifySingle(dyld_image_states, ImageLoader const*, ImageLoader::InitializerTimingList*)
+    35,133 ( 0.13%)    66 ( 1.47%)    21 ( 0.70%)      9,048 ( 0.08%)      0              0              5,973 ( 0.22%)    12 ( 0.29%)     0           ???:_isort
+    28,731 ( 0.11%)     6 ( 0.13%)     6 ( 0.20%)      8,301 ( 0.07%)      0              0              2,541 ( 0.10%)    90 ( 2.20%)    90 ( 2.74%)  ???:ImageLoaderMachO::ImageLoaderMachO(macho_header const*, char const*, unsigned int, unsigned int*, unsigned int)
+    28,623 ( 0.10%)     9 ( 0.20%)     9 ( 0.30%)     11,844 ( 0.11%)      0              0              8,883 ( 0.33%)    27 ( 0.66%)    18 ( 0.55%)  ???:dyld3::OverflowSafeArray<unsigned int, 4294967295ul>::push_back(unsigned int const&)
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /Users/andreigarcia/CLionProjects/lab2_arq/ejer4/./product_block.cpp
+--------------------------------------------------------------------------------
+Ir                  I1mr       ILmr       Dr                  D1mr            DLmr           Dw                 D1mw       DLmw       
+
+        30 ( 0.00%) 6 ( 0.13%) 6 ( 0.20%)          6 ( 0.00%)      3 ( 0.01%)     0                 12 ( 0.00%) 3 ( 0.07%) 3 ( 0.09%)  int main() {
+         3 ( 0.00%) 0          0                   0               0              0                  3 ( 0.00%) 0          0             constexpr int maxsize = 100;
+         .          .          .                   .               .              .                  .          .          .           
+        24 ( 0.00%) 3 ( 0.07%) 3 ( 0.10%)          0               0              0                  9 ( 0.00%) 3 ( 0.07%) 3 ( 0.09%)    double a[maxsize][maxsize] {}; // Default init
+        15 ( 0.00%) 0          0                   6 ( 0.00%)      0              0                  3 ( 0.00%) 0          0             double b[maxsize][maxsize] {}; // Default init
+         .          .          .                   .               .              .                  .          .          .             double c[maxsize][maxsize]; // No init
+         .          .          .                   .               .              .                  .          .          .           
+         3 ( 0.00%) 0          0                   0               0              0                  3 ( 0.00%) 3 ( 0.07%) 0             constexpr int bsize = 20;  
+         .          .          .                   .               .              .                  .          .          .             static_assert(maxsize % bsize == 0,
+         .          .          .                   .               .              .                  .          .          .                 "size must be multiple of blocksize");
+         .          .          .                   .               .              .                  .          .          .           
+        99 ( 0.00%) 3 ( 0.07%) 3 ( 0.10%)         33 ( 0.00%)      0              0                 18 ( 0.00%) 0          0             for (int bj=0; bj<maxsize; bj+=bsize) {
+       495 ( 0.00%) 0          0                 165 ( 0.00%)      0              0                 90 ( 0.00%) 0          0               for (int bk=0; bk<maxsize; bk+=bsize) {
+    45,225 ( 0.17%) 3 ( 0.07%) 3 ( 0.10%)     15,075 ( 0.13%)      0              0              7,575 ( 0.28%) 0          0                 for (int i=0; i<maxsize; ++i) {
+ 1,402,500 ( 5.13%) 3 ( 0.07%) 3 ( 0.10%)    472,500 ( 4.20%)      0              0            157,500 ( 5.91%) 0          0                   for (int j=bj; j<bj+bsize; ++j) {
+   300,000 ( 1.10%) 0          0                   0               0              0            150,000 ( 5.63%) 0          0                     double r=0;
+28,050,000 (102.7%) 3 ( 0.07%) 3 ( 0.10%)  9,450,000 (83.93%)      0              0          3,150,000 (118.3%) 0          0                     for (int k=bk; k<bk+bsize; ++k) {
+42,000,000 (153.7%) 3 ( 0.07%) 3 ( 0.10%) 21,000,000 (186.5%) 26,790 (93.44%)     0          3,000,000 (112.6%) 0          0                       r += a[i][k] * b[k][j];
+         .          .          .                   .               .              .                  .          .          .                     }
+ 1,200,000 ( 4.39%) 3 ( 0.07%) 3 ( 0.10%)    600,000 ( 5.33%) 22,176 (77.35%) 3,747 (79.76%)   150,000 ( 5.63%) 0          0                     c[i][j] += r;
+         .          .          .                   .               .              .                  .          .          .                   }
+     7,500 ( 0.03%) 0          0                   0               0              0                  0          0          0                 }
+        75 ( 0.00%) 0          0                   0               0              0                  0          0          0               }
+        15 ( 0.00%) 0          0                   0               0              0                  0          0          0             }              
+         .          .          .                   .               .              .                  .          .          .           	
+         9 ( 0.00%) 0          0                   6 ( 0.00%)      0              0                  0          0          0             return 0;
+         .          .          .                   .               .              .                  .          .          .           }
+
+        18 ( 0.00%) 0          0                   9 ( 0.00%)      6 ( 0.02%)     0                  0          0          0           <counts for unidentified lines in /Users/andreigarcia/CLionProjects/lab2_arq/ejer4/./product_block.cpp>
+
+--------------------------------------------------------------------------------
+Ir                  I1mr        ILmr        Dr                  D1mr            DLmr           Dw                 D1mw       DLmw       
+--------------------------------------------------------------------------------
+73,005,993 (267.2%) 27 ( 0.60%) 27 ( 0.91%) 31,537,791 (280.1%) 48,969 (170.8%) 3,747 (79.76%) 6,615,213 (248.3%) 9 ( 0.22%) 6 ( 0.18%)  events annotated
+
