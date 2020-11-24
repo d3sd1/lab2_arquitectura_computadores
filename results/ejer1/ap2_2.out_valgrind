@@ -14,7 +14,7 @@ fn=main
 10 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 475861 1912 1651 117055 2640 825 46892 504 407
+0 475333 1876 1651 116899 2627 815 46789 498 401
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -188,7 +188,7 @@ fn=ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const
 fn=ImageLoaderMachO::needsTermination()
 0 308 1 1 132 1 0 44 0 0
 fn=ImageLoaderMachO::notifyObjC() const
-0 609 3 0 261 44 0 87 0 0
+0 609 3 0 261 43 0 87 0 0
 fn=ImageLoaderMachO::overridesCachedDylib(unsigned int&) const
 0 27 1 1 9 1 0 6 0 0
 fn=ImageLoaderMachO::parseLoadCmds(ImageLoader::LinkContext const&)
@@ -596,7 +596,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 65 27 4487 185 2 3236 42 0
+0 15923 65 27 4487 185 2 3236 43 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -616,9 +616,9 @@ fn=dyld::processDyldEnvironmentVariable(char const*, char const*, char const*)
 fn=dyld::processIsRestricted()
 0 6 2 1 3 0 0 1 0 0
 fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
-0 1967 7 6 495 77 0 889 1 1
+0 1967 7 6 495 78 0 889 1 1
 fn=dyld::registerBulkLoadCallback(void (*)(unsigned int, mach_header const**, char const**))
-0 463 9 9 106 21 0 118 3 1
+0 463 9 9 106 20 0 118 3 1
 fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
 0 343 8 8 104 4 0 72 3 2
 fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
@@ -785,4 +785,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 4606336 4516 2977 1942246 37309 28206 596537 26561 26005
+summary: 4605808 4480 2977 1942090 37295 28196 596434 26556 25999

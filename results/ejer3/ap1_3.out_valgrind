@@ -14,7 +14,7 @@ fn=main
 16 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 5275802 1878 1651 116954 2636 815 4846935 75517 75167
+0 5276598 1913 1651 117187 2654 826 4847092 75530 75178
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -618,7 +618,7 @@ fn=dyld::processIsRestricted()
 fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
 0 1967 7 6 495 81 0 889 1 1
 fn=dyld::registerBulkLoadCallback(void (*)(unsigned int, mach_header const**, char const**))
-0 463 9 9 106 22 0 118 3 1
+0 463 9 9 106 22 0 118 1 1
 fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
 0 343 8 8 104 4 0 72 3 2
 fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
@@ -785,4 +785,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 9404543 4484 2979 1941974 62271 3447 5396442 101564 75785
+summary: 9405339 4519 2979 1942207 62289 3458 5396599 101575 75796

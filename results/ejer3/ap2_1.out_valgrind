@@ -14,7 +14,7 @@ fn=main
 15 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 475875 1888 1657 117058 2652 824 46913 511 412
+0 475546 1899 1651 116964 2637 818 46836 503 404
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -72,7 +72,7 @@ fn=ImageLoader::link(ImageLoader::LinkContext const&, bool, bool, bool, ImageLoa
 fn=ImageLoader::matchInstallPath() const
 0 65583 0 0 28107 1 0 9369 0 0
 fn=ImageLoader::processInitializers(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
-0 1419 9 4 370 34 0 359 4 0
+0 1419 9 4 370 33 0 359 4 0
 fn=ImageLoader::read_sleb128(unsigned char const*&, unsigned char const*)
 0 62 2 2 8 0 0 4 0 0
 fn=ImageLoader::read_uleb128(unsigned char const*&, unsigned char const*)
@@ -268,7 +268,7 @@ fn=ImageLoaderMachOCompressed::libImage(unsigned int) const
 fn=ImageLoaderMachOCompressed::libIsUpward(unsigned int) const
 0 13409 0 0 4876 0 0 1219 0 0
 fn=ImageLoaderMachOCompressed::libReExported(unsigned int) const
-0 15990 1 0 6396 69 0 1599 0 0
+0 15990 1 0 6396 68 0 1599 0 0
 fn=ImageLoaderMachOCompressed::makeDataReadOnly() const
 0 839 3 3 310 0 0 224 0 0
 fn=ImageLoaderMachOCompressed::rebase(ImageLoader::LinkContext const&, unsigned long)
@@ -596,7 +596,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 66 27 4487 192 2 3236 41 0
+0 15923 66 27 4487 191 2 3236 42 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -616,9 +616,9 @@ fn=dyld::processDyldEnvironmentVariable(char const*, char const*, char const*)
 fn=dyld::processIsRestricted()
 0 6 2 1 3 0 0 1 0 0
 fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
-0 1967 7 6 495 83 0 889 1 1
+0 1967 7 6 495 81 0 889 1 1
 fn=dyld::registerBulkLoadCallback(void (*)(unsigned int, mach_header const**, char const**))
-0 463 9 9 106 21 0 118 3 1
+0 463 9 9 106 22 0 118 3 1
 fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
 0 343 8 8 104 4 0 72 3 2
 fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
@@ -750,7 +750,7 @@ fn=strcat
 fn=strchr
 0 73 3 3 11 0 0 2 0 0
 fn=strcmp
-0 191755 21 4 39814 706 158 3703 0 0
+0 191755 21 4 39814 707 158 3703 0 0
 fn=strcpy
 0 241 5 3 42 0 0 27 7 7
 fn=strlcat
@@ -785,4 +785,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 6405867 4497 2984 1942172 62246 53451 596539 26541 25766
+summary: 6405538 4508 2978 1942078 62228 53445 596462 26534 25758

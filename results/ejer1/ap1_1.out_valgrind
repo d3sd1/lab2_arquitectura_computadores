@@ -15,7 +15,7 @@ fn=main
 12 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 476009 1925 1651 117102 2639 825 46945 513 410
+0 475602 1880 1651 116975 2637 818 46842 507 405
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -73,7 +73,7 @@ fn=ImageLoader::link(ImageLoader::LinkContext const&, bool, bool, bool, ImageLoa
 fn=ImageLoader::matchInstallPath() const
 0 65583 0 0 28107 1 0 9369 0 0
 fn=ImageLoader::processInitializers(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
-0 1419 9 4 370 34 0 359 4 0
+0 1419 9 4 370 33 0 359 4 0
 fn=ImageLoader::read_sleb128(unsigned char const*&, unsigned char const*)
 0 62 2 2 8 0 0 4 0 0
 fn=ImageLoader::read_uleb128(unsigned char const*&, unsigned char const*)
@@ -85,7 +85,7 @@ fn=ImageLoader::recursiveBindWithAccounting(ImageLoader::LinkContext const&, boo
 fn=ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
 0 16249 4 4 5758 12 0 2947 0 0
 fn=ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, char const*, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
-0 33926 21 11 11780 57 0 6796 5 0
+0 33926 21 11 11780 56 0 6796 5 0
 fn=ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&, char const*)
 0 67769 20 20 23553 122 0 9843 25 1
 fn=ImageLoader::recursiveMakeDataReadOnly(ImageLoader::LinkContext const&)
@@ -269,7 +269,7 @@ fn=ImageLoaderMachOCompressed::libImage(unsigned int) const
 fn=ImageLoaderMachOCompressed::libIsUpward(unsigned int) const
 0 13409 0 0 4876 0 0 1219 0 0
 fn=ImageLoaderMachOCompressed::libReExported(unsigned int) const
-0 15990 1 0 6396 69 0 1599 0 0
+0 15990 1 0 6396 68 0 1599 0 0
 fn=ImageLoaderMachOCompressed::makeDataReadOnly() const
 0 839 3 3 310 0 0 224 0 0
 fn=ImageLoaderMachOCompressed::rebase(ImageLoader::LinkContext const&, unsigned long)
@@ -387,7 +387,7 @@ fn=_kernelrpc_mach_port_deallocate_trap
 fn=_kernelrpc_mach_vm_allocate_trap
 0 4 1 1 1 0 0 0 0 0
 fn=_os_nospin_lock_lock
-0 290 6 2 174 7 0 0 0 0
+0 290 6 2 174 6 0 0 0 0
 fn=_os_nospin_lock_unlock
 0 348 3 1 232 1 0 0 0 0
 fn=_platform_strlcat
@@ -597,7 +597,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 66 27 4487 190 2 3236 48 0
+0 15923 66 27 4487 191 2 3236 46 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -619,7 +619,7 @@ fn=dyld::processIsRestricted()
 fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
 0 1967 7 6 495 81 0 889 1 1
 fn=dyld::registerBulkLoadCallback(void (*)(unsigned int, mach_header const**, char const**))
-0 463 9 9 106 22 0 118 3 1
+0 463 9 9 106 21 0 118 3 1
 fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
 0 343 8 8 104 4 0 72 3 2
 fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
@@ -786,4 +786,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 5206255 4534 2977 2142254 62233 28203 696585 26550 26012
+summary: 5205848 4489 2977 2142127 62227 28196 696482 26542 26007

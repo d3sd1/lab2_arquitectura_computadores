@@ -17,7 +17,7 @@ fn=main
 13 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 1116146 1882 1651 117048 2634 818 686995 10522 10171
+0 1115845 1878 1651 116965 2625 815 686940 10518 10167
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -75,7 +75,7 @@ fn=ImageLoader::link(ImageLoader::LinkContext const&, bool, bool, bool, ImageLoa
 fn=ImageLoader::matchInstallPath() const
 0 65583 0 0 28107 2 0 9369 0 0
 fn=ImageLoader::processInitializers(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
-0 1419 9 4 370 34 0 359 4 0
+0 1419 9 4 370 35 0 359 4 0
 fn=ImageLoader::read_sleb128(unsigned char const*&, unsigned char const*)
 0 62 2 2 8 0 0 4 0 0
 fn=ImageLoader::read_uleb128(unsigned char const*&, unsigned char const*)
@@ -191,7 +191,7 @@ fn=ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const
 fn=ImageLoaderMachO::needsTermination()
 0 308 1 1 132 1 0 44 0 0
 fn=ImageLoaderMachO::notifyObjC() const
-0 609 3 0 261 43 0 87 0 0
+0 609 3 0 261 44 0 87 0 0
 fn=ImageLoaderMachO::overridesCachedDylib(unsigned int&) const
 0 27 1 1 9 1 0 6 0 0
 fn=ImageLoaderMachO::parseLoadCmds(ImageLoader::LinkContext const&)
@@ -363,7 +363,7 @@ fn=__thread_selfid
 fn=_dyld_debugger_notification
 0 8 1 1 4 0 0 2 0 0
 fn=_dyld_func_lookup
-0 2637 7 2 333 28 0 333 1 0
+0 2637 6 2 333 28 0 333 1 0
 fn=_dyld_get_all_image_infos
 0 324 2 1 162 1 0 54 0 0
 fn=_dyld_get_shared_cache_range
@@ -541,7 +541,7 @@ fn=dyld3::validMagic(dyld3::SharedCacheOptions const&, DyldSharedCache const*)
 fn=dyld::FileOpener::~FileOpener()
 0 8 1 1 3 0 0 2 0 0
 fn=dyld::_main(macho_header const*, unsigned long, int, char const**, char const**, char const**, unsigned long*)
-0 1697 90 87 430 28 17 244 15 10
+0 1697 90 87 430 27 17 244 15 10
 fn=dyld::addImage(ImageLoader*)
 0 7925 56 11 2191 19 0 1541 5 5
 fn=dyld::addMappedRange(ImageLoader*, unsigned long, unsigned long)
@@ -599,7 +599,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 66 27 4487 185 2 3236 47 0
+0 15923 65 27 4487 184 2 3236 47 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -621,7 +621,7 @@ fn=dyld::processIsRestricted()
 fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
 0 1967 7 6 495 77 0 889 1 1
 fn=dyld::registerBulkLoadCallback(void (*)(unsigned int, mach_header const**, char const**))
-0 463 9 9 106 20 0 118 3 1
+0 463 9 9 106 21 0 118 3 1
 fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
 0 343 8 8 104 4 0 72 3 2
 fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
@@ -753,7 +753,7 @@ fn=strcat
 fn=strchr
 0 64 3 3 10 0 0 2 0 0
 fn=strcmp
-0 191755 21 4 39814 713 157 3703 0 0
+0 191755 19 4 39814 713 157 3703 0 0
 fn=strcpy
 0 231 5 3 37 0 0 24 5 5
 fn=strlcat
@@ -788,4 +788,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 4428156 4493 2980 1146972 92346 3453 1019091 51597 15785
+summary: 4427855 4485 2980 1146889 92338 3450 1019036 51593 15781

@@ -25,7 +25,7 @@ fn=main
 26 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 637638 1879 1648 117522 2745 846 207338 3039 2688
+0 635942 1875 1648 116982 2633 815 206940 3017 2667
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -95,7 +95,7 @@ fn=ImageLoader::recursiveBindWithAccounting(ImageLoader::LinkContext const&, boo
 fn=ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
 0 16249 4 4 5758 13 0 2947 0 0
 fn=ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, char const*, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
-0 33926 21 11 11780 57 0 6796 4 0
+0 33926 21 11 11780 56 0 6796 4 0
 fn=ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&, char const*)
 0 67769 20 20 23553 124 0 9843 40 3
 fn=ImageLoader::recursiveMakeDataReadOnly(ImageLoader::LinkContext const&)
@@ -191,7 +191,7 @@ fn=ImageLoaderMachO::libPath(unsigned int) const
 fn=ImageLoaderMachO::loadCodeSignature(linkedit_data_command const*, int, unsigned long long, ImageLoader::LinkContext const&)
 0 64 5 5 10 0 0 30 4 4
 fn=ImageLoaderMachO::machHeader() const
-0 8155 3 1 4893 34 0 1631 0 0
+0 8155 3 1 4893 32 0 1631 0 0
 fn=ImageLoaderMachO::mapSegments(int, unsigned long long, unsigned long long, unsigned long long, ImageLoader::LinkContext const&)
 0 362 17 17 128 1 1 76 3 3
 fn=ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const*)
@@ -199,7 +199,7 @@ fn=ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const
 fn=ImageLoaderMachO::needsTermination()
 0 308 1 1 132 1 0 44 0 0
 fn=ImageLoaderMachO::notifyObjC() const
-0 609 3 0 261 44 0 87 0 0
+0 609 3 0 261 43 0 87 0 0
 fn=ImageLoaderMachO::overridesCachedDylib(unsigned int&) const
 0 27 1 1 9 1 0 6 0 0
 fn=ImageLoaderMachO::parseLoadCmds(ImageLoader::LinkContext const&)
@@ -371,7 +371,7 @@ fn=__thread_selfid
 fn=_dyld_debugger_notification
 0 8 1 1 4 0 0 2 0 0
 fn=_dyld_func_lookup
-0 2637 7 2 333 28 0 333 1 0
+0 2637 6 2 333 28 0 333 1 0
 fn=_dyld_get_all_image_infos
 0 324 2 1 162 1 0 54 0 0
 fn=_dyld_get_shared_cache_range
@@ -607,7 +607,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 66 27 4487 183 2 3236 47 0
+0 15923 65 27 4487 185 2 3236 48 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -627,9 +627,9 @@ fn=dyld::processDyldEnvironmentVariable(char const*, char const*, char const*)
 fn=dyld::processIsRestricted()
 0 6 2 1 3 0 0 1 0 0
 fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
-0 1967 7 6 495 77 0 889 1 1
+0 1967 7 6 495 78 0 889 1 1
 fn=dyld::registerBulkLoadCallback(void (*)(unsigned int, mach_header const**, char const**))
-0 463 9 9 106 21 0 118 3 1
+0 463 9 9 106 20 0 118 3 1
 fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
 0 343 8 8 104 4 0 72 3 2
 fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
@@ -761,7 +761,7 @@ fn=strcat
 fn=strchr
 0 64 3 3 10 0 0 2 0 0
 fn=strcmp
-0 191775 21 4 39818 713 157 3703 0 0
+0 191775 19 4 39818 713 157 3703 0 0
 fn=strcpy
 0 223 5 3 36 0 0 23 5 5
 fn=strlcat
@@ -796,4 +796,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 27322975 4494 2979 11259440 28785 4729 2664093 4117 3303
+summary: 27321279 4486 2979 11258900 28671 4698 2663695 4096 3282

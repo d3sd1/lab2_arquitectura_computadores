@@ -15,7 +15,7 @@ fn=main
 12 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 475552 1909 1651 116968 2644 820 46836 507 403
+0 475552 1909 1651 116968 2654 820 46836 507 403
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -181,7 +181,7 @@ fn=ImageLoaderMachO::libPath(unsigned int) const
 fn=ImageLoaderMachO::loadCodeSignature(linkedit_data_command const*, int, unsigned long long, ImageLoader::LinkContext const&)
 0 64 5 5 10 0 0 30 3 3
 fn=ImageLoaderMachO::machHeader() const
-0 8155 3 1 4893 38 0 1631 0 0
+0 8155 3 1 4893 37 0 1631 0 0
 fn=ImageLoaderMachO::mapSegments(int, unsigned long long, unsigned long long, unsigned long long, ImageLoader::LinkContext const&)
 0 362 17 17 128 1 1 76 3 3
 fn=ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const*)
@@ -597,7 +597,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 66 27 4487 189 2 3236 48 0
+0 15923 66 27 4487 189 2 3236 50 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -786,4 +786,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 5205798 4515 2977 2142120 62235 28198 696476 26544 26005
+summary: 5205798 4515 2977 2142120 62244 28198 696476 26546 26005

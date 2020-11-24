@@ -15,7 +15,7 @@ fn=main
 12 3 0 0 2 0 0 0 0 0
 fl=???
 fn=???
-0 475306 1876 1651 116893 2628 815 46787 503 401
+0 475301 1876 1651 116892 2629 815 46787 504 401
 fn=Diagnostics::Diagnostics(bool)
 0 495 2 1 198 0 0 198 0 0
 fn=Diagnostics::assertNoError() const
@@ -597,7 +597,7 @@ fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
 fn=dyld::notifyBatch(dyld_image_states, bool)
 0 56 3 1 7 0 0 7 0 0
 fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-0 15923 65 27 4487 191 2 3236 46 0
+0 15923 65 27 4487 190 2 3236 46 0
 fn=dyld::notifyKernel(ImageLoader const&, bool)
 0 2196 4 4 794 0 0 526 0 0
 fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
@@ -786,4 +786,4 @@ fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::
 0 253 8 6 66 0 0 60 3 3
 fn=xmmap
 0 24 1 1 6 0 0 3 0 0
-summary: 5205552 4481 2977 2142045 62220 28193 696427 26538 26003
+summary: 5205547 4481 2977 2142044 62220 28193 696427 26539 26003
