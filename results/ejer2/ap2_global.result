@@ -1,13 +1,13 @@
-WARNING: line 792 malformed, ignoring
-WARNING: line 793 malformed, ignoring
-WARNING: line 794 malformed, ignoring
-WARNING: line 795 malformed, ignoring
-WARNING: line 796 malformed, ignoring
-WARNING: line 1583 malformed, ignoring
-WARNING: line 1584 malformed, ignoring
-WARNING: line 1585 malformed, ignoring
-WARNING: line 1586 malformed, ignoring
-WARNING: line 1587 malformed, ignoring
+WARNING: line 129 malformed, ignoring
+WARNING: line 130 malformed, ignoring
+WARNING: line 131 malformed, ignoring
+WARNING: line 132 malformed, ignoring
+WARNING: line 133 malformed, ignoring
+WARNING: line 257 malformed, ignoring
+WARNING: line 258 malformed, ignoring
+WARNING: line 259 malformed, ignoring
+WARNING: line 260 malformed, ignoring
+WARNING: line 261 malformed, ignoring
 --------------------------------------------------------------------------------
 I1 cache:         32768 B, 64 B, 8-way associative
 D1 cache:         32768 B, 64 B, 8-way associative
@@ -23,148 +23,38 @@ User annotated:
 Auto-annotation:  on
 
 --------------------------------------------------------------------------------
-Ir                 I1mr           ILmr           Dr                 D1mr            DLmr           Dw                 D1mw            DLmw            
+Ir        I1mr ILmr Dr      D1mr   DLmr  Dw      D1mw   DLmw   
 --------------------------------------------------------------------------------
-4,428,160 (100.0%) 4,512 (100.0%) 2,980 (100.0%) 1,146,974 (100.0%) 92,346 (100.0%) 3,453 (100.0%) 1,019,091 (100.0%) 51,596 (100.0%) 15,784 (100.0%)  PROGRAM TOTALS
+2,404,598  862  850 430,559 81,593 1,373 691,190 50,555 15,209  PROGRAM TOTALS
 
 --------------------------------------------------------------------------------
-Ir                 I1mr           ILmr           Dr                 D1mr             DLmr           Dw                 D1mw             DLmw             file:function
+Ir        I1mr  ILmr  Dr        D1mr    DLmr  Dw        D1mw    DLmw    file:function
 --------------------------------------------------------------------------------
-3,347,840 (75.60%) 5,657 (125.4%) 4,953 (166.2%)   350,980 (30.60%)   7,892 ( 8.55%) 2,448 (70.89%) 2,060,875 (202.2%)  31,557 (61.16%) 30,504 (193.3%)  ???:???
-2,886,108 (65.18%)    15 ( 0.33%)    15 ( 0.50%) 1,201,830 (104.8%) 240,009 (259.9%)     0            241,230 (23.67%) 119,997 (232.6%) 15,003 (95.05%)  /Users/andreigarcia/CLionProjects/lab2_arq/ejer2/./access_strided.cpp:main
-  575,265 (12.99%)    59 ( 1.31%)    12 ( 0.40%)   119,442 (10.41%)   2,139 ( 2.32%)   471 (13.64%)    11,109 ( 1.09%)       0               0           ???:strcmp
-  497,961 (11.25%)    21 ( 0.47%)    18 ( 0.60%)   188,418 (16.43%)     174 ( 0.19%)     0             41,313 ( 4.05%)      12 ( 0.02%)      6 ( 0.04%)  ???:dyld::loadPhase5check(char const*, char const*, dyld::LoadContext const&)
-  396,114 ( 8.95%)    18 ( 0.40%)     9 ( 0.30%)    80,034 ( 6.98%)   2,472 ( 2.68%)     0             10,047 ( 0.99%)      39 ( 0.08%)      9 ( 0.06%)  ???:ImageLoaderMachO::libPath(unsigned int) const
-  339,453 ( 7.67%)   309 ( 6.85%)    39 ( 1.31%)    48,606 ( 4.24%)     393 ( 0.43%)    96 ( 2.78%)    38,097 ( 3.74%)      69 ( 0.13%)     57 ( 0.36%)  ???:dyld3::MachOLoaded::trieWalk(Diagnostics&, unsigned char const*, unsigned char const*, char const*)
-  321,030 ( 7.25%)   324 ( 7.18%)   138 ( 4.63%)    52,113 ( 4.54%)     537 ( 0.58%)   531 (15.38%)    11,421 ( 1.12%)       0               0           ???:ImageLoaderMachO::sniffLoadCommands(macho_header const*, char const*, bool, bool*, unsigned int*, unsigned int*, ImageLoader::LinkContext const&, linkedit_data_command const**, encryption_info_command const**)
-  315,480 ( 7.12%)     6 ( 0.13%)     3 ( 0.10%)    46,992 ( 4.10%)      24 ( 0.03%)     0              1,224 ( 0.12%)       0               0           ???:ImageLoader::hash(char const*)
-  309,519 ( 6.99%)    12 ( 0.27%)    12 ( 0.40%)    53,754 ( 4.69%)     678 ( 0.73%)     0              4,356 ( 0.43%)     108 ( 0.21%)      0           ???:dyld::addMappedRange(ImageLoader*, unsigned long, unsigned long)
-  230,103 ( 5.20%)    51 ( 1.13%)    18 ( 0.60%)    30,639 ( 2.67%)     630 ( 0.68%)   357 (10.34%)    26,811 ( 2.63%)      24 ( 0.05%)     15 ( 0.10%)  ???:ImageLoader::trieWalk(unsigned char const*, unsigned char const*, char const*)
-  203,307 ( 4.59%)    60 ( 1.33%)    60 ( 2.01%)    70,659 ( 6.16%)     372 ( 0.40%)     0             29,529 ( 2.90%)     120 ( 0.23%)      9 ( 0.06%)  ???:ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&, char const*)
-  196,749 ( 4.44%)     0              0             84,321 ( 7.35%)       6 ( 0.01%)     0             28,107 ( 2.76%)       0               0           ???:ImageLoader::matchInstallPath() const
-  194,403 ( 4.39%)    18 ( 0.40%)    18 ( 0.60%)    48,918 ( 4.26%)     495 ( 0.54%)   246 ( 7.12%)     7,404 ( 0.73%)       0               0           ???:strncmp
-  191,646 ( 4.33%)     9 ( 0.20%)     9 ( 0.30%)    44,226 ( 3.86%)       0              0             29,484 ( 2.89%)       0               0           ???:___ZNK5dyld311MachOLoaded21fixupAllChainedFixupsER11DiagnosticsPK28dyld_chained_starts_in_imagemNS_5ArrayIPKvEEU13block_pointerFvPvSA_E_block_invoke
-  177,612 ( 4.01%)    21 ( 0.47%)    21 ( 0.70%)    57,774 ( 5.04%)      18 ( 0.02%)     0             23,970 ( 2.35%)       9 ( 0.02%)      0           ???:ImageLoader::recursiveUpdateDepth(unsigned int, dyld3::Array<ImageLoader*>&)
-  163,791 ( 3.70%)   363 ( 8.05%)    63 ( 2.11%)    32,850 ( 2.86%)   1,725 ( 1.87%) 1,686 (48.83%)    16,983 ( 1.67%)       0               0           ???:ImageLoaderMachO::parseLoadCmds(ImageLoader::LinkContext const&)
-  114,270 ( 2.58%)     0              0             45,708 ( 3.99%)     630 ( 0.68%)     0             11,427 ( 1.12%)       0               0           ???:ImageLoaderMachOCompressed::libImage(unsigned int) const
-  101,778 ( 2.30%)    63 ( 1.40%)    33 ( 1.11%)    35,340 ( 3.08%)     168 ( 0.18%)     0             20,388 ( 2.00%)      12 ( 0.02%)      0           ???:ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, char const*, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
-  101,457 ( 2.29%)    18 ( 0.40%)     6 ( 0.20%)    23,601 ( 2.06%)     207 ( 0.22%)     0                138 ( 0.01%)       0               0           ???:dyld::findMappedRange(unsigned long)
-   98,604 ( 2.23%)    15 ( 0.33%)    12 ( 0.40%)    29,565 ( 2.58%)     948 ( 1.03%)   948 (27.45%)     5,031 ( 0.49%)       0               0           ???:dyld3::MachOLoaded::walkChain(Diagnostics&, dyld3::MachOLoaded::ChainedFixupPointerOnDisk*, unsigned short, bool, unsigned int, void ( block_pointer)(dyld3::MachOLoaded::ChainedFixupPointerOnDisk*, bool&)) const
-   86,049 ( 1.94%)    51 ( 1.13%)    18 ( 0.60%)    24,045 ( 2.10%)      72 ( 0.08%)     0              9,225 ( 0.91%)       9 ( 0.02%)      6 ( 0.04%)  ???:ImageLoaderMachO::findExportedSymbol(char const*, bool, char const*, ImageLoader const**) const
-   77,979 ( 1.76%)   315 ( 6.98%)    57 ( 1.91%)    31,872 ( 2.78%)     132 ( 0.14%)     3 ( 0.09%)    14,622 ( 1.43%)      78 ( 0.15%)     57 ( 0.36%)  ???:dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
-   77,238 ( 1.74%)    12 ( 0.27%)    12 ( 0.40%)    19,476 ( 1.70%)   2,517 ( 2.73%) 2,517 (72.89%)     5,031 ( 0.49%)      87 ( 0.17%)     30 ( 0.19%)  ???:dyld3::MachOFile::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const
-   77,121 ( 1.74%)    27 ( 0.60%)    21 ( 0.70%)    18,942 ( 1.65%)       0              0             18,942 ( 1.86%)      66 ( 0.13%)     33 ( 0.21%)  ???:dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
-   69,303 ( 1.57%)   162 ( 3.59%)    21 ( 0.70%)    20,544 ( 1.79%)       6 ( 0.01%)     0             12,177 ( 1.19%)      36 ( 0.07%)      3 ( 0.02%)  ???:dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
-   68,331 ( 1.54%)    18 ( 0.40%)    18 ( 0.60%)    22,776 ( 1.99%)     168 ( 0.18%)     0             13,308 ( 1.31%)       0               0           ???:ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool, ImageLoader const*)
-   60,054 ( 1.36%)   279 ( 6.18%)    90 ( 3.02%)    12,747 ( 1.11%)       0              0              9,021 ( 0.89%)      51 ( 0.10%)      0           ???:_qsort
-   59,292 ( 1.34%)    15 ( 0.33%)     0             18,786 ( 1.64%)       0              0              4,344 ( 0.43%)       0               0           ???:ImageLoader::compare(ImageLoader const*) const
-   59,145 ( 1.34%)     6 ( 0.13%)     6 ( 0.20%)     9,555 ( 0.83%)     123 ( 0.13%)   117 ( 3.39%)     1,875 ( 0.18%)       0               0           ???:strlen
-   58,731 ( 1.33%)   159 ( 3.52%)    27 ( 0.91%)    15,723 ( 1.37%)      81 ( 0.09%)     3 ( 0.09%)    14,121 ( 1.39%)      69 ( 0.13%)      0           ???:dyld::load(char const*, dyld::LoadContext const&, unsigned int&)
-   58,440 ( 1.32%)    33 ( 0.73%)    12 ( 0.40%)    12,759 ( 1.11%)   2,058 ( 2.23%)     0              9,474 ( 0.93%)      90 ( 0.17%)     18 ( 0.11%)  ???:ImageLoaderMachO::doGetDependentLibraries(ImageLoader::DependentLibraryInfo*)
-   54,561 ( 1.23%)    81 ( 1.80%)    81 ( 2.72%)    18,315 ( 1.60%)      93 ( 0.10%)    63 ( 1.82%)    11,814 ( 1.16%)       6 ( 0.01%)      0           ???:ImageLoaderMachOCompressed::eachBind(ImageLoader::LinkContext const&, unsigned long ( block_pointer)(ImageLoader::LinkContext const&, ImageLoaderMachOCompressed*, unsigned long, unsigned char, char const*, unsigned char, long, long, ImageLoaderMachO::ExtraBindData*, char const*, ImageLoaderMachOCompressed::LastLookup*, bool))
-   53,892 ( 1.22%)     9 ( 0.20%)     6 ( 0.20%)     9,867 ( 0.86%)       9 ( 0.01%)     6 ( 0.17%)     5,424 ( 0.53%)       0               0           ???:dyld3::MachOFile::read_uleb128(Diagnostics&, unsigned char const*&, unsigned char const*)
-   52,260 ( 1.18%)     3 ( 0.07%)     0             20,904 ( 1.82%)     195 ( 0.21%)     0              5,226 ( 0.51%)       0               0           ???:ImageLoaderMachOCompressed::libReExported(unsigned int) const
-   51,369 ( 1.16%)    33 ( 0.73%)    33 ( 1.11%)    15,498 ( 1.35%)   2,544 ( 2.75%)     3 ( 0.09%)     7,239 ( 0.71%)       0               0           ???:ImageLoaderMachO::setupLazyPointerHandler(ImageLoader::LinkContext const&)
-   50,061 ( 1.13%)    30 ( 0.66%)    15 ( 0.50%)    20,295 ( 1.77%)       6 ( 0.01%)     0             14,883 ( 1.46%)      48 ( 0.09%)      3 ( 0.02%)  ???:dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
-   50,061 ( 1.13%)    12 ( 0.27%)    12 ( 0.40%)    18,942 ( 1.65%)       0              0             14,883 ( 1.46%)      96 ( 0.19%)     39 ( 0.25%)  ???:dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
-   49,149 ( 1.11%)    15 ( 0.33%)    15 ( 0.50%)    14,190 ( 1.24%)       3 ( 0.00%)     0              7,224 ( 0.71%)       0               0           ???:dyld::checkandAddImage(ImageLoader*, dyld::LoadContext const&)
-   48,747 ( 1.10%)    12 ( 0.27%)    12 ( 0.40%)    17,274 ( 1.51%)      39 ( 0.04%)     0              8,841 ( 0.87%)       0               0           ???:ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
-   47,769 ( 1.08%)   196 ( 4.34%)    81 ( 2.72%)    13,461 ( 1.17%)     553 ( 0.60%)     6 ( 0.17%)     9,708 ( 0.95%)     142 ( 0.28%)      0           ???:dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
-   47,223 ( 1.07%)    15 ( 0.33%)    12 ( 0.40%)    15,216 ( 1.33%)       0              0              9,105 ( 0.89%)       3 ( 0.01%)      0           ???:ImageLoader::recursiveRebase(ImageLoader::LinkContext const&)
-   47,049 ( 1.06%)     9 ( 0.20%)     9 ( 0.30%)    16,113 ( 1.40%)       3 ( 0.00%)     0              8,928 ( 0.88%)       0               0           ???:ImageLoader::recursiveMakeDataReadOnly(ImageLoader::LinkContext const&)
-   45,384 ( 1.02%)    12 ( 0.27%)    12 ( 0.40%)     8,463 ( 0.74%)      21 ( 0.02%)    21 ( 0.61%)    11,547 ( 1.13%)       0               0           ???:arc4_stir
-   44,226 ( 1.00%)     6 ( 0.13%)     6 ( 0.20%)    19,656 ( 1.71%)       0              0              4,914 ( 0.48%)       0               0           ???:___ZNK5dyld311MachOLoaded27forEachFixupInSegmentChainsER11DiagnosticsPK30dyld_chained_starts_in_segmentbU13block_pointerFvPNS0_25ChainedFixupPointerOnDiskES5_RbE_block_invoke
-   41,688 ( 0.94%)     9 ( 0.20%)     9 ( 0.30%)    14,244 ( 1.24%)      51 ( 0.06%)    48 ( 1.39%)     3,306 ( 0.32%)       0               0           ???:___ZNK5dyld39MachOFile24forEachSupportedPlatformEU13block_pointerFvNS_8PlatformEjjE_block_invoke
-   40,227 ( 0.91%)     0              0             14,628 ( 1.28%)       0              0              3,657 ( 0.36%)       0               0           ???:ImageLoaderMachOCompressed::libIsUpward(unsigned int) const
-   39,741 ( 0.90%)     9 ( 0.20%)     9 ( 0.30%)     5,583 ( 0.49%)       0              0              1,980 ( 0.19%)     180 ( 0.35%)    174 ( 1.10%)  ???:ImageLoader::ImageLoader(char const*, unsigned int)
-   38,934 ( 0.88%)    15 ( 0.33%)     6 ( 0.20%)     7,401 ( 0.65%)      54 ( 0.06%)    39 ( 1.13%)     3,129 ( 0.31%)       0               0           ???:ImageLoader::read_uleb128(unsigned char const*&, unsigned char const*)
-   36,744 ( 0.83%)     3 ( 0.07%)     3 ( 0.10%)    15,267 ( 1.33%)   1,611 ( 1.74%)     0              3,105 ( 0.30%)       0               0           ???:ImageLoaderMachO::getInstallPath() const
-   35,808 ( 0.81%)    66 ( 1.46%)    33 ( 1.11%)    10,110 ( 0.88%)     129 ( 0.14%)     6 ( 0.17%)    10,275 ( 1.01%)      12 ( 0.02%)      0           ???:dyld::notifySingle(dyld_image_states, ImageLoader const*, ImageLoader::InitializerTimingList*)
-   35,133 ( 0.79%)    66 ( 1.46%)    21 ( 0.70%)     9,048 ( 0.79%)       0              0              5,973 ( 0.59%)      12 ( 0.02%)      0           ???:_isort
-   28,731 ( 0.65%)     6 ( 0.13%)     6 ( 0.20%)     8,301 ( 0.72%)       0              0              2,541 ( 0.25%)      90 ( 0.17%)     90 ( 0.57%)  ???:ImageLoaderMachO::ImageLoaderMachO(macho_header const*, char const*, unsigned int, unsigned int*, unsigned int)
-   28,623 ( 0.65%)     9 ( 0.20%)     9 ( 0.30%)    11,844 ( 1.03%)       0              0              8,883 ( 0.87%)      27 ( 0.05%)     18 ( 0.11%)  ???:dyld3::OverflowSafeArray<unsigned int, 4294967295ul>::push_back(unsigned int const&)
-   27,090 ( 0.61%)    27 ( 0.60%)    12 ( 0.40%)    11,214 ( 0.98%)       0              0              1,452 ( 0.14%)      30 ( 0.06%)      3 ( 0.02%)  ???:ImageLoaderMachO::getRPaths(ImageLoader::LinkContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >&) const
-   26,064 ( 0.59%)     9 ( 0.20%)     0             13,032 ( 1.14%)       0              0              4,344 ( 0.43%)       0               0           ???:dyld::imageSorter(void const*, void const*)
-   24,837 ( 0.56%)    18 ( 0.40%)     6 ( 0.20%)    14,610 ( 1.27%)      42 ( 0.05%)     0              5,844 ( 0.57%)       6 ( 0.01%)      0           ???:ImageLoaderMachO::segActualLoadAddress(unsigned int) const
-   24,465 ( 0.55%)     9 ( 0.20%)     3 ( 0.10%)    14,679 ( 1.28%)      96 ( 0.10%)     0              4,893 ( 0.48%)       0               0           ???:ImageLoaderMachO::machHeader() const
-   24,240 ( 0.55%)     6 ( 0.13%)     3 ( 0.10%)     9,696 ( 0.85%)       0              0              4,848 ( 0.48%)       0               0           ???:ImageLoaderMachOCompressed::segmentCommandOffsets() const
-   23,775 ( 0.54%)   168 ( 3.72%)    33 ( 1.11%)     6,573 ( 0.57%)      57 ( 0.06%)     0              4,623 ( 0.45%)      15 ( 0.03%)     15 ( 0.10%)  ???:dyld::addImage(ImageLoader*)
-   22,659 ( 0.51%)     9 ( 0.20%)     3 ( 0.10%)     9,711 ( 0.85%)      57 ( 0.06%)     0              3,237 ( 0.32%)       0               0           ???:ImageLoaderMachO::inSharedCache() const
-   20,757 ( 0.47%)     6 ( 0.13%)     6 ( 0.20%)     2,442 ( 0.21%)       0              0             10,989 ( 1.08%)       0               0           ???:dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*, unsigned int&)
-   18,852 ( 0.43%)     6 ( 0.13%)     6 ( 0.20%)     2,361 ( 0.21%)     411 ( 0.45%)   408 (11.82%)       639 ( 0.06%)       0               0           ???:dyld3::closure::ContainerTypedBytes::findAttributePayload(dyld3::closure::TypedBytes::Type, unsigned int*) const
-   18,315 ( 0.41%)     6 ( 0.13%)     6 ( 0.20%)     3,663 ( 0.32%)       0              0              2,442 ( 0.24%)     177 ( 0.34%)      0           ???:ImageLoaderMachOCompressed::setLibImage(unsigned int, ImageLoader*, bool, bool)
-   18,072 ( 0.41%)    42 ( 0.93%)    15 ( 0.50%)     5,445 ( 0.47%)     435 ( 0.47%)     0              3,708 ( 0.36%)       6 ( 0.01%)      6 ( 0.04%)  ???:ImageLoaderMachOCompressed::findShallowExportedSymbol(char const*, ImageLoader const**) const
-   17,589 ( 0.40%)     6 ( 0.13%)     6 ( 0.20%)     6,765 ( 0.59%)       3 ( 0.00%)     0              4,059 ( 0.40%)       9 ( 0.02%)      0           ???:DyldSharedCache::hasNonOverridablePath(char const*) const
-   17,094 ( 0.39%)   126 ( 2.79%)     0              8,547 ( 0.75%)     258 ( 0.28%)     0              1,221 ( 0.12%)       0               0           ???:ImageLoaderMachO::doGetLibraryInfo(ImageLoader::LibraryInfo const&)
-   14,124 ( 0.32%)     6 ( 0.13%)     3 ( 0.10%)     5,778 ( 0.50%)       0              0              4,494 ( 0.44%)       0               0           ???:ImageLoaderMachO::segActualEndAddress(unsigned int) const
-   12,792 ( 0.29%)    12 ( 0.27%)     3 ( 0.10%)     6,396 ( 0.56%)       0              0              1,599 ( 0.16%)       0               0           ???:ImageLoader::getRealPath() const
-   12,048 ( 0.27%)    12 ( 0.27%)     6 ( 0.20%)     6,777 ( 0.59%)       3 ( 0.00%)     0              3,012 ( 0.30%)       0               0           ???:ImageLoaderMachO::segFileOffset(unsigned int) const
-   12,000 ( 0.27%)     9 ( 0.20%)     9 ( 0.30%)     4,800 ( 0.42%)       0              0              3,600 ( 0.35%)       0               0           ???:___ZN26ImageLoaderMachOCompressed6doBindERKN11ImageLoader11LinkContextEbPKS0__block_invoke
-   11,568 ( 0.26%)     3 ( 0.07%)     0              6,507 ( 0.57%)      27 ( 0.03%)     0              2,892 ( 0.28%)       0               0           ???:ImageLoaderMachO::segSize(unsigned int) const
-   10,920 ( 0.25%)    30 ( 0.66%)     6 ( 0.20%)     3,900 ( 0.34%)       6 ( 0.01%)     3 ( 0.09%)     2,340 ( 0.23%)       0               0           ???:kdebug_is_enabled
-   10,464 ( 0.24%)     9 ( 0.20%)     9 ( 0.30%)       522 ( 0.05%)       0              0              4,104 ( 0.40%)     723 ( 1.40%)    723 ( 4.58%)  ???:bzero
-    9,945 ( 0.22%)    18 ( 0.40%)     6 ( 0.20%)     5,265 ( 0.46%)      45 ( 0.05%)     0              2,340 ( 0.23%)       0               0           ???:ImageLoaderMachO::segUnaccessible(unsigned int) const
-    9,936 ( 0.22%)    15 ( 0.33%)    15 ( 0.50%)     3,627 ( 0.32%)     726 ( 0.79%)     0              1,395 ( 0.14%)       3 ( 0.01%)      3 ( 0.02%)  ???:ImageLoaderMachO::doGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
-    9,708 ( 0.22%)    18 ( 0.40%)     9 ( 0.30%)     2,592 ( 0.23%)     105 ( 0.11%)     0              1,902 ( 0.19%)      27 ( 0.05%)      9 ( 0.06%)  ???:ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const*)
-    9,648 ( 0.22%)     9 ( 0.20%)     9 ( 0.30%)     3,114 ( 0.27%)       9 ( 0.01%)     0              1,566 ( 0.15%)       0               0           ???:ImageLoaderMachO::usablePrebinding(ImageLoader::LinkContext const&) const
-    9,630 ( 0.22%)    18 ( 0.40%)     6 ( 0.20%)     1,374 ( 0.12%)       0              0                687 ( 0.07%)       0               0           ???:dyld::stateToHandlers(dyld_image_states, void* (*) [3])
-    9,513 ( 0.21%)     6 ( 0.13%)     6 ( 0.20%)     5,436 ( 0.47%)     990 ( 1.07%)     0              1,359 ( 0.13%)       0               0           ???:ImageLoaderMachO::isDylib() const
-    9,168 ( 0.21%)     6 ( 0.13%)     6 ( 0.20%)     3,240 ( 0.28%)   1,005 ( 1.09%)     0                414 ( 0.04%)       0               0           ???:ImageLoaderMachO::getUUID(unsigned char*) const
-    9,024 ( 0.20%)     6 ( 0.13%)     6 ( 0.20%)     4,512 ( 0.39%)       3 ( 0.00%)     0              2,256 ( 0.22%)       0               0           ???:ImageLoaderMachO::segName(unsigned int) const
-    8,832 ( 0.20%)    24 ( 0.53%)     3 ( 0.10%)     3,072 ( 0.27%)      18 ( 0.02%)     0                384 ( 0.04%)       0               0           ???:mach_absolute_time
-    8,820 ( 0.20%)    18 ( 0.40%)    18 ( 0.60%)     2,898 ( 0.25%)       6 ( 0.01%)     0              2,898 ( 0.28%)       0               0           ???:ImageLoaderMachOCompressed::instantiateFromCache(macho_header const*, char const*, long, stat const&, unsigned int, unsigned int, ImageLoader::LinkContext const&)
-    8,550 ( 0.19%)     6 ( 0.13%)     0              1,458 ( 0.13%)      36 ( 0.04%)     0                 33 ( 0.00%)       0               0           ???:strrchr
-    7,911 ( 0.18%)    19 ( 0.42%)     6 ( 0.20%)       999 ( 0.09%)      84 ( 0.09%)     0                999 ( 0.10%)       3 ( 0.01%)      0           ???:_dyld_func_lookup
-    7,875 ( 0.18%)     6 ( 0.13%)     0              4,725 ( 0.41%)       0              0              1,575 ( 0.15%)       0               0           ???:ImageLoader::lastModified() const
-    7,740 ( 0.17%)   144 ( 3.19%)    12 ( 0.40%)     1,419 ( 0.12%)       0              0              3,096 ( 0.30%)       6 ( 0.01%)      6 ( 0.04%)  ???:dyld3::MachOFile::builtForPlatform(dyld3::Platform, bool) const
-    7,530 ( 0.17%)    66 ( 1.46%)    36 ( 1.21%)     2,964 ( 0.26%)     360 ( 0.39%)     6 ( 0.17%)     1,650 ( 0.16%)       6 ( 0.01%)      0           ???:ImageLoaderMachO::doModInitFunctions(ImageLoader::LinkContext const&)
-    7,191 ( 0.16%)    12 ( 0.27%)     6 ( 0.20%)     1,269 ( 0.11%)       0              0              1,551 ( 0.15%)       3 ( 0.01%)      3 ( 0.02%)  ???:dyld3::kdebug_trace_dyld_image(unsigned int, char const*, unsigned char const (*) [16], fsobj_id, fsid, mach_header const*)
-    7,164 ( 0.16%)    15 ( 0.33%)    15 ( 0.50%)     1,962 ( 0.17%)       3 ( 0.00%)     3 ( 0.09%)     2,202 ( 0.22%)      24 ( 0.05%)     24 ( 0.15%)  ???:dyld3::findInSharedCacheImage(dyld3::SharedCacheLoadInfo const&, char const*, dyld3::SharedCacheFindDylibResults*)
-    7,137 ( 0.16%)   276 ( 6.12%)    12 ( 0.40%)     3,564 ( 0.31%)      75 ( 0.08%)     0              1,455 ( 0.14%)      72 ( 0.14%)     63 ( 0.40%)  ???:addImagesToAllImages(unsigned int, dyld_image_info const*)
-    7,050 ( 0.16%)     0              0              1,974 ( 0.17%)       0              0              2,256 ( 0.22%)       0               0           ???:kdebug_trace
-    6,696 ( 0.15%)    18 ( 0.40%)    15 ( 0.50%)     1,584 ( 0.14%)       9 ( 0.01%)     3 ( 0.09%)     1,572 ( 0.15%)      18 ( 0.03%)     15 ( 0.10%)  ???:DyldSharedCache::hasImagePath(char const*, unsigned int&) const
-    6,588 ( 0.15%)    12 ( 0.27%)    12 ( 0.40%)     2,382 ( 0.21%)       0              0              1,578 ( 0.15%)       0               0           ???:dyld::notifyKernel(ImageLoader const&, bool)
-    5,901 ( 0.13%)    21 ( 0.47%)    18 ( 0.60%)     1,485 ( 0.13%)     232 ( 0.25%)     0              2,667 ( 0.26%)       3 ( 0.01%)      3 ( 0.02%)  ???:dyld::registerAddCallback(void (*)(mach_header const*, long))
-    5,670 ( 0.13%)     9 ( 0.20%)     9 ( 0.30%)     1,512 ( 0.13%)       0              0              1,764 ( 0.17%)       0               0           ???:ImageLoaderMachO::instantiateFromCache(macho_header const*, char const*, long, stat const&, ImageLoader::LinkContext const&)
-    5,589 ( 0.13%)    27 ( 0.60%)     6 ( 0.20%)     1,449 ( 0.13%)       0              0              1,449 ( 0.14%)      15 ( 0.03%)      6 ( 0.04%)  ???:dyld3::kdebug_trace_dyld_duration_start(unsigned int, dyld3::kt_arg, dyld3::kt_arg, dyld3::kt_arg)
-    5,553 ( 0.13%)    18 ( 0.40%)    18 ( 0.60%)     1,755 ( 0.15%)      66 ( 0.07%)    63 ( 1.82%)       990 ( 0.10%)       3 ( 0.01%)      3 ( 0.02%)  ???:___ZNK5dyld39MachOFile14forEachSegmentEU13block_pointerFvRKNS0_11SegmentInfoERbE_block_invoke
-    5,550 ( 0.13%)     3 ( 0.07%)     0              2,220 ( 0.19%)       0              0              1,110 ( 0.11%)       0               0           ???:ImageLoaderMachOCompressed::isSubframeworkOf(ImageLoader::LinkContext const&, ImageLoader const*) const
-    5,550 ( 0.13%)     0              0              2,220 ( 0.19%)       0              0              1,110 ( 0.11%)       0               0           ???:ImageLoaderMachOCompressed::hasSubLibrary(ImageLoader::LinkContext const&, ImageLoader const*) const
-    5,517 ( 0.12%)    21 ( 0.47%)    21 ( 0.70%)     1,893 ( 0.17%)       6 ( 0.01%)     0              1,491 ( 0.15%)       0               0           ???:ImageLoaderMachOCompressed::doBind(ImageLoader::LinkContext const&, bool, ImageLoader const*)
-    5,472 ( 0.12%)    24 ( 0.53%)    12 ( 0.40%)     1,476 ( 0.13%)      84 ( 0.09%)     3 ( 0.09%)       840 ( 0.08%)       3 ( 0.01%)      3 ( 0.02%)  ???:malloc
-    5,460 ( 0.12%)     3 ( 0.07%)     3 ( 0.10%)     1,950 ( 0.17%)     255 ( 0.28%)     0              1,560 ( 0.15%)       0               0           ???:ImageLoaderMachO::participatesInCoalescing() const
-    5,427 ( 0.12%)     9 ( 0.20%)     9 ( 0.30%)       930 ( 0.08%)       0              0                891 ( 0.09%)       3 ( 0.01%)      3 ( 0.02%)  ???:_simple_getenv
-    5,358 ( 0.12%)    15 ( 0.33%)     6 ( 0.20%)     1,410 ( 0.12%)       0              0              1,692 ( 0.17%)       3 ( 0.01%)      3 ( 0.02%)  ???:kdebug_trace_string
-    5,304 ( 0.12%)     6 ( 0.13%)     6 ( 0.20%)     1,422 ( 0.12%)       0              0                309 ( 0.03%)       0               0           ???:bcmp
-    5,148 ( 0.12%)     0              0              2,574 ( 0.22%)       0              0                858 ( 0.08%)       0               0           ???:Diagnostics::hasError() const
-    5,091 ( 0.11%)   270 ( 5.98%)   261 ( 8.76%)     1,290 ( 0.11%)      81 ( 0.09%)    51 ( 1.48%)       732 ( 0.07%)      45 ( 0.09%)     30 ( 0.19%)  ???:dyld::_main(macho_header const*, unsigned long, int, char const**, char const**, char const**, unsigned long*)
-    4,830 ( 0.11%)   141 ( 3.12%)     9 ( 0.30%)       690 ( 0.06%)       0              0              1,932 ( 0.19%)      27 ( 0.05%)     24 ( 0.15%)  ???:dyld3::MachOFile::forEachSupportedPlatform(void ( block_pointer)(dyld3::Platform, unsigned int, unsigned int)) const
-    4,662 ( 0.11%)    21 ( 0.47%)     9 ( 0.30%)     1,554 ( 0.14%)      15 ( 0.02%)     3 ( 0.09%)     1,173 ( 0.12%)      75 ( 0.15%)     21 ( 0.13%)  ???:stat_with_subsystem
+4,927,092    15    15 1,202,520 240,702   699   120,618 120,000 14,490  /home/aclab/Descargas/lab2_arquitectura_computadores/ejer2/./access_strided.cpp:main
+2,281,539 2,259 2,223    87,885   4,023 3,417 1,952,259  31,653 31,125  ???:???
 
 --------------------------------------------------------------------------------
--- Auto-annotated source: /Users/andreigarcia/CLionProjects/lab2_arq/ejer2/./access_strided.cpp
+-- Auto-annotated source: /home/aclab/Descargas/lab2_arquitectura_computadores/ejer2/./access_strided.cpp
 --------------------------------------------------------------------------------
-Ir                 I1mr       ILmr       Dr               D1mr             DLmr       Dw               D1mw             DLmw            
+Ir        I1mr ILmr Dr      D1mr    DLmr Dw      D1mw    DLmw   
 
-       30 ( 0.00%) 3 ( 0.07%) 3 ( 0.10%)       6 ( 0.00%)       3 ( 0.00%) 0               12 ( 0.00%)       3 ( 0.01%)      3 ( 0.02%)  int main() {
-        3 ( 0.00%) 0          0                0                0          0                3 ( 0.00%)       0               0             constexpr int maxsize = 200;
-       24 ( 0.00%) 3 ( 0.07%) 3 ( 0.10%)       0                0          0                9 ( 0.00%)       3 ( 0.01%)      3 ( 0.02%)    double a[maxsize][maxsize] {}; // Default init
-       15 ( 0.00%) 0          0                6 ( 0.00%)       3 ( 0.00%) 0                3 ( 0.00%)       0               0             double b[maxsize][maxsize] {}; // Default init
-        .          .          .                .                .          .                .                .               .             double c[maxsize][maxsize]; // No init
-        .          .          .                .                .          .                .                .               .           
-    3,609 ( 0.08%) 3 ( 0.07%) 3 ( 0.10%)   1,203 ( 0.10%)       0          0              603 ( 0.06%)       3 ( 0.01%)      0             for (int j=0; j<maxsize; ++j) {
-  721,800 (16.30%) 0          0          240,600 (20.98%)       0          0          120,600 (11.83%)       0               0               for (int i=0; i<maxsize; ++i) {
-2,160,000 (48.78%) 6 ( 0.13%) 6 ( 0.20%) 960,000 (83.70%) 239,997 (259.9%) 0          120,000 (11.78%) 119,988 (232.6%) 14,997 (95.01%)        c[i][j] = a[i][j] + b[i][j];
-        .          .          .                .                .          .                .                .               .               }
-      600 ( 0.01%) 0          0                0                0          0                0                0               0             }
-        .          .          .                .                .          .                .                .               .           
-        9 ( 0.00%) 0          0                6 ( 0.00%)       0          0                0                0               0             return 0;
-        .          .          .                .                .          .                .                .               .           }
-
-       18 ( 0.00%) 0          0                9 ( 0.00%)       6 ( 0.01%) 0                0                0               0           <counts for unidentified lines in /Users/andreigarcia/CLionProjects/lab2_arq/ejer2/./access_strided.cpp>
+    2,832    3    3     705     702  699       6       0      0  int main() {
+        3    0    0       0       0    0       3       3      3    constexpr int maxsize = 200;
+       15    3    3       0       0    0       3       0      0    double a[maxsize][maxsize] {}; // Default init
+       15    0    0       0       0    0       3       0      0    double b[maxsize][maxsize] {}; // Default init
+        .    .    .       .       .    .       .       .      .    double c[maxsize][maxsize]; // No init
+        .    .    .       .       .    .       .       .      .  
+    2,409    0    0   1,203       0    0       3       0      0    for (int j=0; j<maxsize; ++j) {
+  481,800    3    3 240,600       0    0     600       0      0      for (int i=0; i<maxsize; ++i) {
+4,440,000    6    6 960,000 239,994    0 120,000 119,997 14,487        c[i][j] = a[i][j] + b[i][j];
+        .    .    .       .       .    .       .       .      .      }
+        .    .    .       .       .    .       .       .      .    }
+        .    .    .       .       .    .       .       .      .  
+        3    0    0       0       0    0       0       0      0    return 0;
+       15    0    0      12       6    0       0       0      0  }
 
 --------------------------------------------------------------------------------
-Ir                 I1mr        ILmr        Dr                 D1mr             DLmr       Dw               D1mw             DLmw            
+Ir        I1mr ILmr Dr        D1mr    DLmr Dw      D1mw    DLmw   
 --------------------------------------------------------------------------------
-2,886,090 (65.18%) 15 ( 0.33%) 15 ( 0.50%) 1,201,821 (104.8%) 240,003 (259.9%) 0          241,230 (23.67%) 119,997 (232.6%) 15,003 (95.05%)  events annotated
+4,927,092   15   15 1,202,520 240,702  699 120,618 120,000 14,490  events annotated
 
